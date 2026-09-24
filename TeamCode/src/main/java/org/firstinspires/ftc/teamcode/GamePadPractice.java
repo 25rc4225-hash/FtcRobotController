@@ -17,7 +17,9 @@ public class GamePadPractice extends OpMode {
         telemetry.addData("Ly", -gamepad1.left_stick_y);
         telemetry.addData("Rx", gamepad1.right_stick_x);
         telemetry.addData("Ry", -gamepad1.right_stick_y);
-        telemetry.addData("a", gamepad1.a);
-        telemetry.addData("b", gamepad1.b);
+        telemetry.addData("X", gamepad1.a);
+        telemetry.addData("[]", gamepad1.b);
+        telemetry.addData("Square", gamepad1.circle);
+        telemetry.addData("Triangle", gamepad1.cross);
     }
 }
